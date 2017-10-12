@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507769141 source:c:\users\animator\desktop\knn.cpp
+	<iostream>
+	<fstream>
+
