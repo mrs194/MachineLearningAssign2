@@ -1,14 +1,17 @@
 #include <iostream>
 #include <fstream>
+#include "KNN_Functions.h"
 
-using namspace std;
+using namespace std;
 
 
 int main()
 {
-    ifstream inFile;
+    string fileName = "iris.txt";
 
-    inFile.open("iris.txt");
+    point pt;
+
+    pt.readCSV(fileName);
 
 
 

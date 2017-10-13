@@ -3,3 +3,22 @@
 	<iostream>
 	<fstream>
 
+1507854921 source:c:\users\animator\desktop\c++ machinelearning\assign2\knn.cpp
+	<iostream>
+	<fstream>
+	"KNN_Functions.h"
+
+1507858392 c:\users\animator\desktop\c++ machinelearning\assign2\knn_functions.h
+	<string>
+	<vector>
+	<fstream>
+
+1507858647 source:c:\users\animator\desktop\c++ machinelearning\assign2\knn_functions.cpp
+	"KNN_Functions.h"
+	<cmath>
+	<vector>
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<algorithm>
+

@@ -1,12 +1,16 @@
 #ifndef KNN_FUNCTIONS_H_INCLUDED
 #define KNN_FUNCTIONS_H_INCLUDED
+#include <string>
+#include <vector>
+#include <fstream>
 
 class point
 {
     public:
-        double x, y, z, w;
-        string plantType = "";
-        distanceFromPoints(point point1, point point2);
+        std::string x, y, z, w;
+        std::string plantType;
+        double distanceFromPoints(point point1, point point2);
+        std::vector< std::vector<std::string> >readCSV(std::string fileName);
 
 };
 
